@@ -1,7 +1,7 @@
 # 💻 Mohd Ibrahim Afridi (Afridi)
 
 **AI/ML Engineer • Independent Researcher • Entrepreneur • AI Safety & Trust**
-[🌐 Portfolio](https://mohdibrahimaiml.github.io/portfolio-/) · [📧 Email](mailto:mohdibrahimafridi.ai@gmail.com) · [💼 LinkedIn](https://www.linkedin.com/in/mohd-ibrahim-afridi-381b12381) · [🐙 GitHub](https://github.com/mohdibrahimaiml)
+[🌐 Portfolio](https://mohdibrahimaiml.github.io/portfolio-/) · [📧 Email](mailto:mohdibrahimaiml@outlook.com) · [💼 LinkedIn](https://www.linkedin.com/in/mohd-ibrahim-afridi-381b12381) · [🐙 GitHub](https://github.com/mohdibrahimaiml)
 
 ---
 
