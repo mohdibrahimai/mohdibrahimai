@@ -9,46 +9,47 @@
 
 Hi, I’m Afridi — an AI/ML engineer and independent researcher obsessed with building **verifiable, trustworthy, safe AI systems**.
 
-* 🧠 Founder & CTO at **XCL3NT**, an AI‑first commerce brand
-* 🤖 Researcher behind **Dynamic Chain‑of‑Thought Reward Models (D‑CoT)** — [Read D‑CoT](https://zenodo.org/records/16554886)
+* 🧠 Founder & CTO at **XCL3NT**, an AI-first commerce brand
+* 🤖 Researcher behind **Dynamic Chain-of-Thought Reward Models (D-CoT)** — [Read D-CoT](https://zenodo.org/records/16554886)
 * 🛡️ Focus: **AI Safety & Trust** — designing systems with evidence, evaluation, and safeguards by default
-* 🌍 Remote‑ready and open to relocation (US/EU/NZ/SEA)
+* 🌍 Remote-ready and open to relocation (US/EU/NZ/SEA)
 
 > *Mission: Make AI safer, more transparent, and actually helpful to humanity.* 🌱
 
 ---
 
-## 🧪 Research Focus
+## 🧪 My Research Focus
 
-* **AI Safety & Trust:** principled safeguards, routing/abstain policies, post‑hoc verification
-* **Evidence‑bound QA:** answers backed by citations + sentence‑level verification
-* **Model behavior & evals:** metrics, gates, and nightly reports that catch regressions
-* **Human‑data pipelines:** collection → curation → evaluation
-* **Freshness/cost routing:** parametric vs retrieval vs compute
+* **AI Safety & Trust**: principled safeguards, red-teaming, abstain/route policies, post-hoc verification
+* Verifiable QA systems (answers backed by evidence)
+* Model behavior analysis & safety alignment
+* Evaluation frameworks (metrics, gates, nightly reports)
+* Human-data pipelines (collection → curation → evals)
+* Cost/freshness routing and retrieval–generation hybrids
 
 ---
 
-## 🛠️ Selected Projects (renamed & polished)
+## 🛠️ Selected Projects (renamed)
 
-| Project (Display Name)                                                     | Repo / Link                                                                                      | What it Does                                                                           | Stack                                              |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| **Evidence‑Bound Answering System** *(formerly ARGOS)*                     | [https://github.com/mohdibrahimai/ARGOS](https://github.com/mohdibrahimai/ARGOS)                 | Retriever → Answer → **Verifier** with inline citations, metrics, and dashboards.      | FastAPI, Next.js, Docker, Helm, Prometheus/Grafana |
-| **Prompt Contracts + Fuzzing CI for Answer Engines** *(formerly HELMSMAN)* | [https://github.com/mohdibrahimai/HELMSMAN](https://github.com/mohdibrahimai/HELMSMAN)           | Turn prompts into **contracts**, run packs, gate regressions in CI.                    | Python, YAML DSL, scikit‑learn                     |
-| **VerifyQA — Proof‑Carrying Answers** *(formerly PALADIN)*                 | [https://github.com/mohdibrahimai/PALADIN](https://github.com/mohdibrahimai/PALADIN)             | Minimal **evidence graphs** + deterministic verifier; trains a proof‑planner.          | Python, Streamlit                                  |
-| **Human‑Guided Parametric‑vs‑Retrieval Gating** *(formerly JANUS)*         | [https://github.com/mohdibrahimai/JANUS](https://github.com/mohdibrahimai/JANUS)                 | Policy decides: answer from memory, **retrieve & cite**, compute, clarify, or abstain. | Python, FastAPI, Torch (policy)                    |
-| **UIRE — Universal Intent Resolution Engine**                              | [https://github.com/mohdibrahimai/UIRE](https://github.com/mohdibrahimai/UIRE)                   | Detect ambiguity → micro‑clarify → produce executable intents.                         | FastAPI, Docker, Helm                              |
-| **TruthLens** (HF Space)                                                   | [https://huggingface.co/spaces/afridi/TruthLens](https://huggingface.co/spaces/afridi/TruthLens) | Claim → Evidence stance (support/contradict/neutral).                                  | HF Spaces, Transformers                            |
+| Project                                                                                                                                 | Description                                                                                             | Stack                          |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| [**Evidence‑Bound Answering System**](https://github.com/mohdibrahimai/Evidence-Bound-Answering-System)                                 | Evidence‑bound answering (retriever → answer → verifier) with inline citations & sentence‑level checks. | FastAPI, Next.js, Docker, Helm |
+| [**Prompt Contracts + Fuzzing CI for Answer Engines**](https://github.com/mohdibrahimai/Prompt-Contracts-Fuzzing-CI-for-Answer-Engines) | Prompt‑contracts DSL, stress packs, evaluators, and **CI gates** to block regressions.                  | Python, YAML DSL               |
+| [**Proof‑Answers**](https://github.com/mohdibrahimai/Proof-Answers-)                                                                    | Proof‑carrying answers with **minimal evidence graphs** + deterministic verifier and hash checks.       | Python, Graph/Verifier         |
+| [**UIRE**](https://github.com/mohdibrahimai/UIRE)                                                                                       | Universal Intent Resolution Engine — ambiguity detection → micro‑clarifications → structured intents.   | FastAPI, Docker, Helm          |
+| [**Human‑Guided Parametric‑vs‑Retrieval Gating**](https://github.com/mohdibrahimai/Human-Guided-Parametric-vs-Retrieval-Gating)         | Per‑query policy to **answer / retrieve / compute / clarify / abstain**; freshness‑ & cost‑aware.       | Python, Policy Engine          |
+| [**TruthLens**](https://huggingface.co/spaces/afridi/TruthLens)                                                                         | Claim→Evidence stance (support/contradict/neutral) for fact‑checking.                                   | HF Spaces, Transformers        |
 
-> More: DataLoaderSpeedrun, BreezeMind‑Pro, Career Vision AI, Human‑Feedback‑Safety‑Simulator, etc. on my GitHub.
+> **Name changes for clarity:** ARGOS → *Evidence‑Bound Answering System* · HELMSMAN → *Prompt Contracts + Fuzzing CI for Answer Engines* · PALADIN → *Proof‑Answers* · JANUS → *Human‑Guided Parametric‑vs‑Retrieval Gating*.
 
 ---
 
 ## 📈 Impact Highlights
 
-* 📊 Reduced hallucinations by **−38%**, latency by **−23%**, and cost by **−44%** across 5+ pipelines
-* 🏆 Improved factual F1 by **+7–12pp**; **D‑CoT RMs** raised ArenaHard by **+3.4pp** and cut CoT latency
-* 📚 Research artifacts: [Grok‑3](https://zenodo.org/records/15227014), [Grok‑3+](https://zenodo.org/records/15341810), [D‑CoT](https://zenodo.org/records/16554886)
-* 🧩 Operationalized **prompt contracts**, nightly eval dashboards, and safety **gates**
+* 📊 Reduced hallucinations **−38%**, latency **−23%**, and cost **−44%** across 5+ pipelines.
+* 🏆 Improved factual F1 by **+7–12pp** and ArenaHard alignment **+3.4pp** with D‑CoT RMs.
+* 📚 Published work: [Grok‑3](https://zenodo.org/records/15227014), [Grok‑3+](https://zenodo.org/records/15341810).
+* 🧩 Designed prompt contracts, nightly eval dashboards, and safety gates that scale.
 
 ---
 
@@ -62,22 +63,22 @@ Hi, I’m Afridi — an AI/ML engineer and independent researcher obsessed with 
 
 ---
 
-## 🔒 AI Safety & Trust Principles
-
-* Build **evidence‑bound** systems (claims must cite sources)
-* Add **prompt contracts** + **CI gates** to prevent regressions
-* Run **nightly evals** (truthfulness, calibration, safety)
-* Prefer **abstain/route** over confident nonsense
-* Ship **receipts**: versions, seeds, costs, checks for replayability
-
----
-
 ## 💌 Let’s Collaborate
 
 If you’re building **frontier models, eval frameworks, or safety tooling** — I’d love to collaborate.
 Let’s make AI **safer, smarter, and actually trustworthy.** 🛡️
 
-> *“AI safety isn’t a checkbox — it’s a responsibility.”* – Me, probably during a caffeine high ☕😄
+> *“AI safety isn’t a checkbox — it’s a responsibility.”* – me (probably during a caffeine high ☕😄)
+
+---
+
+## 🔒 AI Safety & Trust Principles
+
+* Build **evidence‑bound** systems (claims must cite sources).
+* Add **prompt contracts** + **CI gates** for regressions.
+* Use **nightly evals** with safety & calibration metrics.
+* Prefer **abstain/route** over confident nonsense.
+* Ship **receipts**: versions, seeds, costs, and checks for replayability.
 
 ---
 
