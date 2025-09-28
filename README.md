@@ -11,7 +11,7 @@ Hi, I’m Afridi — an AI/ML engineer and independent researcher obsessed with 
 
 * 🧠 Founder & CTO at **XCL3NT**, an AI-first commerce brand
 * 🤖 Researcher behind **Dynamic Chain-of-Thought Reward Models (D-CoT)** — [Read D-CoT](https://zenodo.org/records/16554886)
-* 🛡️ Focus: **AI Safety & Trust** — designing systems with evidence, evaluation, and safeguards by default
+* 🛡️ Focus: **AI Safety & Multilingual Familarity** — designing systems with evidence, evaluation, and safeguards by default
 * 🌍 Remote-ready and open to relocation (US/EU/NZ/SEA)
 
 > *Mission: Make AI safer, more transparent, and actually helpful to humanity.* 🌱
